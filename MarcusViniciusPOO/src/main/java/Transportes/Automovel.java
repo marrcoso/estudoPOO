@@ -25,11 +25,8 @@ public class Automovel extends Veiculo{
         this.potenciaDoMotor = potenciaDoMotor;
     }
 
-    @Override
     public void imprimirInformacoes() {
         super.imprimirInformacoes();
         System.out.println("PotenciaDoMotor: " + potenciaDoMotor);
     }
-    
-    
 }

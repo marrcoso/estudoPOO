@@ -19,9 +19,18 @@ public class MeiosDeTransporte {
         Moto moto = new Moto(true, "Yamaha", 2, "Falcon", 300);
         Bicicleta bike = new Bicicleta(21, true, "Caloi", 2, "TSW");
     
+        
+        carro.setVelocidade(30);
+        moto.setVelocidade(60);
+        bike.setVelocidade(12);
         carro.imprimirInformacoes();
         moto.imprimirInformacoes();
         bike.imprimirInformacoes();
+        
+        System.out.println("");
+        
+        carro.frear(50);
+        carro.imprimirInformacoes();
         
     }
 }
